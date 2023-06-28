@@ -28,3 +28,7 @@ Route::get('/develop ke 3', function () {
 Route::get('/commit error', function () {
     return view('commit error');
 });
+
+Route::get('/commit berhasil', function () {
+    return view('commit berhasil');
+});
