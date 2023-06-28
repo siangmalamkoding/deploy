@@ -21,6 +21,6 @@ Route::get('/develop', function () {
     return view('develop');
 });
 
-Route::get('/develop gagal', function () {
-    return view('develop gagal');
+Route::get('/develop berhasil', function () {
+    return view('develop berhasil');
 });
