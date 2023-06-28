@@ -21,14 +21,6 @@ Route::get('/develop', function () {
     return view('develop');
 });
 
-Route::get('/develop ke 3', function () {
-    return view('develop ke 3');
-});
-
-Route::get('/commit error', function () {
-    return view('commit error');
-});
-
-Route::get('/commit berhasil', function () {
-    return view('commit berhasil');
+Route::get('/develop berhasil', function () {
+    return view('develop berhasil');
 });
